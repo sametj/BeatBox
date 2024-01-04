@@ -45,7 +45,6 @@ box.forEach(function (btn) {
     let key = btn.innerHTML;
     beats[key].beat.Play();
     beats[key].button.setButtonColor();
-    a;
   });
 });
 

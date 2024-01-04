@@ -22,7 +22,7 @@ class button {
     this.key.style.backgroundColor = this.color;
     this.key.style.boxShadow = `0px 0px 17px 0px ${this.color}`;
     this.key.style.transform = "scale(0.95)";
-    this.key.style.transition = "all 0.1s ease";
+    this.key.style.transition = "all 0.5s ";
     this.key.style.borderColor = this.color;
     setTimeout(() => {
       this.key.style.backgroundColor = "transparent";
